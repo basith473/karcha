@@ -31,8 +31,48 @@
             <div class="slds-form-element slds-p-left_medium">
                 <lightning-input name="description" label="Description" ></lightning-input>
             </div>
-            <div class="slds-form-element slds-p-left_medium">
+            <div class="slds-form-element slds-p-left_medium slds-p-top_large">
                 <lightning-button variant="brand" label="Add" title="Add"></lightning-button>
+            </div>
+        </div>
+        <div class="slds-card slds-p-around_small slds-m-around_small">
+            <div class="slds-p-around_large">
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                    <thead>
+                        <tr class="slds-line-height_reset">
+                            <th class="slds-text-align_right" scope="col" style="width: 3.25rem">
+                                <span id="column-group-header" class="slds-assistive-text"></span>
+                                <div class="slds-th__action slds-th__action_form">
+                                    <div class="slds-checkbox">
+                                        <input type="checkbox" name="slection" id="checkbox-unique-id-297" value="checkbox-unique-id-297" tabindex="0" aria-labelledby="check-select-all-label column-group-header" />
+                                        <label class="slds-checkbox__label" for="checkbox-unique-id-297" id="check-select-all-label">
+                                            <span class="slds-checkbox_faux"></span>
+                                            <span class="slds-form-element__label slds-assistive-text">Select All</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="date">Transaction Date</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="date">Type</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="date">Category</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="date">Description</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="date">Amount</div>
+                            </th>
+                            <th scope="col">
+                                <div class="slds-truncate" title="date">Actions</div>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
             </div>
         </div>
     </main>
