@@ -20,10 +20,10 @@
                 <lightning-input type="date" name="transDate" label="Transaction Date" required></lightning-input>
             </div>
             <div class="slds-form-element slds-p-left_medium">
-                <lightning-combobox name="type" label="Type" required></lightning-combobox>
+                <lightning-combobox name="type" label="Type" options={typeOptions} required></lightning-combobox>
             </div>
             <div class="slds-form-element slds-p-left_medium">
-                <lightning-combobox name="category" label="Category" required></lightning-combobox>
+                <lightning-combobox name="category" label="Category" options={categoryOptions} required></lightning-combobox>
             </div>
             <div class="slds-form-element slds-p-left_medium">
                 <lightning-input name="amount" label="Amount" required></lightning-input>
